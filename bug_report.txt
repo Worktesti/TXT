@@ -1,1 +1,23 @@
+Bug_id: 2
+Title: “Add widget” button function is not working on device
+Severity: blocker 
+Priority: high
 
+Environment: 
+1) Meizu 16s (M974H), Android 9, Flyme 7.2.3.2G
+2) Xiaomi Redmi S2, android 9 PKQ1.181203.001, MIUI  global 12.0.1
+3) Huawei lite (WAS LX-1), Android 8.0.0 
+4) Xiaomi Redmi 5 Plus, android 8.1.0, MIU Global 11.0.2.0
+
+Precondition: clear the app from running
+
+STR: 
+1) Open app
+2) Click “Add Widget” button
+
+AR: button design changes on tap, but button function is not working, widget is not created on any page
+
+ER: Widget creation window appears/widget created
+
+Attachments: 
+https://drive.google.com/file/d/1GH2T4W...
